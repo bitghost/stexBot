@@ -1,10 +1,10 @@
 # stexBot
 
-Step 1: Clone The Repo
+<B>Step 1: Clone The Repo</B>
 
 git clone https://github.com/bitghost/stexBot.git
 
-Step 2: Bot Configuration
+<B>Step 2: Bot Configuration</B>
 
 Configure the bot by adding your API key and API secret in stexBot.php (see code block below)<br>
 Then add the pairs you would like to trade (ie "ETH_BTC") in the pairs array<br>
@@ -18,7 +18,7 @@ $pairsArray = array("ETHO_BTC", "ETH_BTC"); // Array for pairs to trade<br>
 $orderDirection = "BUY"; // BUY or SELL<br>
 // USER CONFIGURATION ENDS HERE<br>
 
-Step 3: Add a Cron Job <br>
+<B>Step 3: Add a Cron Job</B> <br>
 crontab -e
 
 Use the following cron command to execute the script every 5 minutes. (other time frames can be used but 5 minutes is a good starting point)<br>
